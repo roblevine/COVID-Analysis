@@ -29,3 +29,9 @@ jupyter nbextension enable python-markdown/main
 ```
 
 make the notebook trusted!
+
+# Render notebook to html
+
+```
+jupyter nbconvert --to html Basic\ COVID\ Analysis.ipynb
+```
